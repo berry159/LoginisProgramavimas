@@ -1,7 +1,7 @@
-/* Elze Radvilaite Informatika 3 kursas 2 grupe variantai 1.2; 2.7; 3.7; 4.1*/
 
-/*1. Paprasti predikatai su sveikuju skaiciu sarašais:
-1.2 lyginiai(S) - teisingas, kai visi duoto sveikuju skaiciu sarašo S elementai yra lyginiai.*/
+
+/*1. Paprasti predikatai su sveikuju skaiciu saraÅ¡ais:
+1.2 lyginiai(S) - teisingas, kai visi duoto sveikuju skaiciu saraÅ¡o S elementai yra lyginiai.*/
 
 lyginiai([]).
 lyginiai([H|T]) :-
@@ -13,10 +13,10 @@ true.*/
 /*-------------------------------------------------------------*/
 
 /*2. Paprasti nearitmetiniai predikatai:
- *2.7. posarasis(S1,S2) - sarašas S2 susideda iš (gal but ne visu)
- * sarašo S1 elementu, išdestytu ta pacia tvarka, kaip ir saraše S1.
- * Kitaip tariant, iš sarašo S1 išmetus tam tikrus elementus, galime
- * gauti saraša S2.*/
+ *2.7. posarasis(S1,S2) - saraÅ¡as S2 susideda iÅ¡ (gal but ne visu)
+ * saraÅ¡o S1 elementu, iÅ¡destytu ta pacia tvarka, kaip ir saraÅ¡e S1.
+ * Kitaip tariant, iÅ¡ saraÅ¡o S1 iÅ¡metus tam tikrus elementus, galime
+ * gauti saraÅ¡a S2.*/
 
 is_found_in([H], H, []).
 is_found_in([H| T], H, T).
@@ -34,9 +34,9 @@ posarasis(S1, [H2| T2]) :-
 /*----------------------------------------------------------------*/
 
 /*3. Sudetingesni predikatai:
-3.7. keisti(S,K,R) - duotas sarašas S. Duotas sarašas K, nusakantis
-keitini ir susidedantis iš elementu pavidalo k(KeiciamasSimbolis,PakeistasSimbolis).
-R - rezultatas, gautas pritaikius sarašui S keitini K.*/
+3.7. keisti(S,K,R) - duotas saraÅ¡as S. Duotas saraÅ¡as K, nusakantis
+keitini ir susidedantis iÅ¡ elementu pavidalo k(KeiciamasSimbolis,PakeistasSimbolis).
+R - rezultatas, gautas pritaikius saraÅ¡ui S keitini K.*/
 
 k(_, _).
 keitinys(Simbolis, KeiciamasSimbolis, _, Gauta):-
@@ -71,8 +71,8 @@ keisti([a,w,c,x,e,y,g,z],[k(w,b),k(x,d),k(y,f),k(z,h)],R). - R = [a, b, c, d, e,
 /*---------------------------------------------------------------------*/
 
 /*4.
- * 4.1. Operacijos su naturaliaisiais skaiciais, išreikštais skaitmenu
- * sarašais. Skaitmenu sarašo elementai turi buti naturalus skaiciai nuo
+ * 4.1. Operacijos su naturaliaisiais skaiciais, iÅ¡reikÅ¡tais skaitmenu
+ * saraÅ¡ais. Skaitmenu saraÅ¡o elementai turi buti naturalus skaiciai nuo
  * 0 iki 9 (ne simboliai '0', '1',...).*/
 
 sarasas_2_skaicius([SarasoPradzia|SarasoPabaiga], SkaiciusN, Pradzia):-
