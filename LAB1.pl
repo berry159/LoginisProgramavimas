@@ -1,6 +1,4 @@
-/*
-    Elze Radvilaite Informatika, 3 kursas, 2 grupe. Variantai:21,28,40,44 .
-*/
+
 
 
 asmuo(ona, moteris, 95, tenisas).
