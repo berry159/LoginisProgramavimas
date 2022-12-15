@@ -1,6 +1,4 @@
-/*
- Elze Radvilaite Informatika, 3 kursas, 2 grupe. Variantai: 2.6, 4.2
-*/
+
 studentas(ingrida,1).
 studentas(tomas,2).
 studentas(rita,3).
@@ -12,7 +10,7 @@ yraVyresnis(rita,tomas).
 yraVyresnis(marius,rita).
 yraVyresnis(egle,marius).
 
-/*„studentas A yra jaunesnis u aukštesnio kurso studenta B“. */
+/*â€studentas A yra jaunesnis uÅ¾ aukÅ¡tesnio kurso studenta Bâ€œ. */
 jaunesnis(StudA,StudB):-
     studentas(StudA,Kursas1),
     studentas(StudB,Kursas2),
